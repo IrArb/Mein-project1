@@ -1,0 +1,11 @@
+*{box-sizing: border-box;}
+
+.coteiner{display: flex;flex-wrap: wrap;flex-direction:wrap;justify-content: space-around;gap: 24px;padding: 16px 32px;background-color: black;color: azure;border-radius: 9999px;list-style: none;}
+@media(max-width:600px){.coteiner{flex-direction: column;gap: 12px;border-radius: 24px;align-items: stretch;}}
+.card{width: 600px;height: 400px;border:1px solid black;margin-top: 100px;background-color: blue;}
+.contentcard{display: inline-flex;width: 500px;height: 400px;justify-content: center;gap: 50px;}
+.text{padding-left: 40px;border: 1px solid black;}gr.jpg) ;
+.text2{display: flex;flex-wrap: wrap;justify-content: center;width: 50px;height: 60px;flex-direction: column;gap: 24px;align-items: center;}
+.kn{display: flex;gap:50px;justify-content:space-evenly;align-items: flex-end;margin-top: 30px;}
+button{cursor: crosshair;}
+.en{display: flex;justify-content: center;align-items: center;gap:24px; height: 45px;border: 1px solid black;}

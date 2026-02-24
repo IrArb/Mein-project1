@@ -1,0 +1,8 @@
+*{box-sizing: border-box;}
+.im div {background-color: blue;transition: background-color 1s ease-in-out;
+}
+.im div:hover{background-color: red;transform:  scale(1.2);}
+.im ul li{color: red;background-color: black;display: inline;margin: 10px 30px;}
+.im ul li:hover{text-decoration:none;color: aqua;cursor: grab;opacity: 3.5;}
+.im ul li:active{color: blueviolet;background-color: brown;display: inline;}
+.im div::after{content:"Подсказка";position: absolute;background-color: bisque;color: brown;}
